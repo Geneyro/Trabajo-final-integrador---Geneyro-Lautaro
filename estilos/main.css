@@ -1,0 +1,406 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #777777;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #030000;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 2.8em;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+ul {
+  padding: 0;
+}
+
+nav li {
+  list-style: none;
+  float: left;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+i {
+  margin-bottom: 20px;
+  color: #ffcf00;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  background-color: #eb7a02;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 15px 60px;
+  text-transform: uppercase;
+}
+
+button a {
+  color: #ffffff;
+}
+
+section {
+  padding: 20px;
+  margin: 0;
+}
+
+footer {
+  margin: 80px 0;
+  width: 100%;
+}
+
+form {
+  margin-top: 30px;
+}
+
+input {
+  border: none;
+  display: block;
+  margin: 10px 0;
+  padding: 15px 10px;
+  width: 100%;
+}
+
+input[type="submit"] {
+  background-color: #eb7a02;
+  color: #777777;
+  text-transform: uppercase;
+}
+
+.spacing {
+  margin-right: 12px;
+}
+
+.space-below {
+  margin-bottom: 25px;
+}
+
+.extra-padding {
+  padding: 0 30px;
+}
+
+.spacing-left {
+  padding: 0 0 0 10px;
+}
+
+.sub-title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.image {
+  width: 100%;
+}
+
+.center-content {
+  text-align: center;
+}
+
+
+.yellow-bg {
+  background-color: #eb7a02;
+}
+
+.dark-yellow-bg {
+  background-color: #eb7a02;
+  color: #000000;
+}
+
+.gl {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../GL\ detail/camry2.jpeg");
+  background-size: cover;
+  min-height: 450px;
+  background-position: center;
+}
+
+.gl .gl-header .logo {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #eb7a02;
+}
+
+.gl-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.gl-content {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.gl-content .title {
+  color: #fff;
+  padding: 20px 0;
+  font-size: 2em;
+  text-transform: capitalize;
+  animation-delay: 0.6s;
+}
+
+.gl-content .desc {
+  color: #fff;
+  max-width: 450px;
+  margin: 0 auto;
+  line-height: 1.5;
+  animation-delay: 0.8s;
+}
+
+.gl-content .action {
+  border: none;
+  padding: 16px 50px;
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 1.2em;
+  background: #eb7a02;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  animation-delay: 1s;
+}
+
+.logo img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.card-container {
+  background-color: #ffffff;
+  padding: 15px 16px;
+  margin-top: -5px;
+}
+
+.testimony {
+  width: 70%;
+  margin: 50px auto;
+}
+
+.testimony p {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.callout {
+  padding: 100px 0;
+}
+
+.callout h2 {
+  color: #eb7a02;
+}
+
+/* Estilos generales para el footer */
+footer {
+  background-color: #000; /* Fondo negro */
+  color: #fff; /* Todo el texto blanco por defecto */
+  padding: 30px 0; /* Espaciado en el footer */
+  text-align: left; /* Alineación del texto a la izquierda */
+}
+
+footer img {
+  width: 300px; /* Ancho de la imagen */
+  height: auto; /* Mantener la proporción */
+  margin-bottom: 20px; /* Espacio debajo de la imagen */
+}
+
+footer p, footer h3, footer h4, footer li {
+  color: #fff; /* Asegurarse de que los textos dentro de estos elementos sean blancos */
+}
+
+footer p {
+  font-size: 16px; /* Tamaño de fuente para el párrafo */
+  line-height: 1.6; /* Espaciado entre líneas */
+  margin-bottom: 15px; /* Espacio debajo del párrafo */
+}
+
+footer h3.footer-phone {
+  font-size: 18px; /* Tamaño de fuente para el teléfono */
+  font-weight: bold; /* Negrita para el número */
+}
+
+footer h4 {
+  font-size: 18px; /* Tamaño de la cabecera */
+  margin-bottom: 10px; /* Espacio debajo del título */
+}
+
+footer ul.triangle {
+  list-style-type: none; /* Eliminar los puntos de la lista */
+  padding-left: 0;
+}
+
+footer ul.triangle li {
+  font-size: 16px; /* Tamaño de fuente para los elementos de la lista */
+  margin-bottom: 8px; /* Espacio entre los elementos de la lista */
+}
+
+footer a {
+  color: #fff; /* Color blanco para los enlaces */
+  text-decoration: none; /* Eliminar subrayado */
+}
+
+footer a:hover {
+  text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+/* Estilos para la separación entre columnas */
+footer .row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Asegura que los elementos no se desborden en pantallas pequeñas */
+}
+
+footer .col-lg-4 {
+  flex: 1; /* Cada columna ocupa un espacio igual */
+  padding: 0 15px; /* Espacio dentro de las columnas */
+}
+
+/* Espaciado para la sección de contacto */
+footer .space-below {
+  margin-bottom: 20px;
+}
+
+footer .spacing-left {
+  margin-left: 20px;
+}
+
+.carousel-images img {
+  display: none; /* Ocultar todas las imágenes por defecto */
+  width: 100%;   /* Ajustar al ancho del contenedor */
+  height: auto;  /* Mantener la proporción */
+}
+
+.carousel-images img.active {
+  display: block; /* Mostrar solo la imagen activa */
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.carousel-button.prev {
+  left: 10px;
+}
+
+.carousel-button.next {
+  right: 10px;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+  .or {
+    display: none;
+  }
+  div.pages-nav nav ul li a {
+    font-size: 1.2em;
+    margin-left: 20px;
+  }
+  section {
+    padding: 80px 30px;
+    margin: 0;
+  }
+
+  .gl .gl-header nav li a {
+    color: #ffffff;
+    font-size: 1.2em;
+    text-transform: capitalize;
+  }
+  nav {
+    margin-top: 10px;
+  }
+  .pop-in {
+    animation: pop-in 0.6s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
+    opacity: 0;
+  }
+  @keyframes pop-in {
+    0% {
+      opacity: 0;
+      transform: translateY(-4rem) scale(0.8);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+}
+
+@media only screen and (min-width: 1224px) {
+  .gl-header {
+    padding: 50px 0 0;
+  }
+  .gl-content .title {
+    font-size: 2.6em;
+  }
+  .gl .gl-header nav {
+    display: block;
+  }
+  .gl-content .desc {
+    max-width: 650px;
+  }
+
+  .logo img {
+    max-width: 300px;
+  }
+  
+}
+
